@@ -25,6 +25,13 @@ html {
   scroll-behavior: smooth;
 }
 
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family:
     Inter,
@@ -1241,8 +1248,19 @@ footer {
   }
 
   .floating-share {
-    right: 14px;
-    bottom: 14px;
+    right: max(14px, env(safe-area-inset-right));
+    bottom: max(14px, env(safe-area-inset-bottom));
+    max-width: calc(100vw - 28px);
+  }
+
+  .share-menu {
+    max-width: calc(100vw - 28px);
+  }
+
+  .share-toast {
+    max-width: calc(100vw - 28px);
+    min-width: auto;
+    white-space: nowrap;
   }
 
   .share-toggle {
@@ -1250,10 +1268,6 @@ footer {
     min-width: 54px;
     height: 54px;
     padding: 0;
-  }
-
-  .share-text {
-    display: none;
   }
 
   .footer-grid {
