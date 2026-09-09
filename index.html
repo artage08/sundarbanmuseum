@@ -3,14 +3,997 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sundarban B C GOL Museum</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Primary SEO -->
+    <title>
+      Sundarban B C GOL Museum | Art, History & Cultural Collections
+    </title>
+    <meta
+      name="description"
+      content="Explore the Sundarban B C GOL Museum through remarkable objects, cultural stories, educational activities, exhibitions, blogs, and visitor experiences."
+    />
+    <meta
+      name="keywords"
+      content="museum, heritage museum, history museum, cultural objects, art collection, exhibitions, museum activities, museum blog"
+    />
+    <meta name="author" content="Sundarban B C GOL Museum" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#091a36" />
+
+    <!-- Replace with the real domain when the site is published -->
+    <link rel="canonical" href="https://www.sundarbanmuseum.org/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Sundarban B C GOL Museum | Art, History & Cultural Collections"
+    />
+    <meta
+      property="og:description"
+      content="Discover objects, stories, exhibitions, activities and the cultural legacy preserved by the Sundarban B C GOL Museum."
+    />
+    <meta property="og:url" content="https://www.sundarbanmuseum.org/" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1564399579883-451a5d44ec08?auto=format&fit=crop&w=1200&q=80"
+    />
+    <meta property="og:site_name" content="Sundarban B C GOL Museum" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sundarban B C GOL Museum" />
+    <meta
+      name="twitter:description"
+      content="Explore remarkable objects, cultural stories, exhibitions and museum activities."
+    />
+    <meta
+      name="twitter:image"
+      content="https://images.unsplash.com/photo-1564399579883-451a5d44ec08?auto=format&fit=crop&w=1200&q=80"
+    />
+
+    <!-- Museum structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Museum",
+        "name": "Sundarban B C GOL Museum",
+        "url": "https://www.sundarbanmuseum.org/",
+        "description": "A museum dedicated to preserving, interpreting and sharing art, history and cultural heritage.",
+        "image": "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?auto=format&fit=crop&w=1200&q=80",
+        "telephone": "+91-00000-00000",
+        "email": "hello@sundarbanmuseum.org",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "12 Heritage Avenue",
+          "addressLocality": "Kolkata",
+          "addressRegion": "West Bengal",
+          "postalCode": "700001",
+          "addressCountry": "IN"
+        },
+        "sameAs": [
+          "https://www.facebook.com/",
+          "https://www.instagram.com/",
+          "https://www.youtube.com/"
+        ]
+      }
+    </script>
   </head>
+
   <body>
-    <div class="container">
-      <img src="bcgol_logo.png" alt="Sundarban B C GOL Museum" />
-      <h1>B C GOL Museum</h1>
-      <h2>Sundarban</h2>
+    <div class="top-strip">
+      Open Tuesday–Sunday, 10:00 AM–6:00 PM · Closed on Mondays
     </div>
+
+    <header>
+      <div class="container nav-wrap">
+        <a
+          href="#home"
+          class="brand"
+          aria-label="Sundarban B C GOL Museum home"
+        >
+          <img
+            src="images/bcgol_logo.png"
+            alt="Sundarban B C GOL Museum logo"
+            class="brand-logo"
+          />
+          <div class="brand-text">
+            <strong>SUNDARBAN B.C. GOL MUSEUM</strong>
+            <span>Art · History · Culture</span>
+          </div>
+        </a>
+
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <nav id="mainNav" aria-label="Primary navigation">
+          <div class="mobile-nav-head">
+            <a
+              href="#home"
+              class="mobile-nav-brand"
+              aria-label="Sundarban B C GOL Museum home"
+            >
+              <img
+                src="images/bcgol_logo.png"
+                alt="Sundarban B C GOL Museum logo"
+                class="mobile-nav-logo"
+              />
+              <div>
+                <strong>Sundarban B C GOL Museum</strong>
+                <span>Art · History · Culture</span>
+              </div>
+            </a>
+
+            <button
+              class="mobile-nav-close"
+              id="menuCloseBtn"
+              type="button"
+              aria-label="Close navigation menu"
+            >
+              ✕
+            </button>
+          </div>
+
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#objects">Objects</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+
+    <main>
+      <!-- Cover / Hero -->
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <img
+              src="images/bcgol_logo.png"
+              alt="Sundarban B C GOL Museum logo"
+              class="hero-brand-logo"
+            />
+            <div class="eyebrow" style="color: var(--gold-light)">
+              Welcome to the museum
+            </div>
+            <h1>Stories preserved.<br /><span>History reimagined.</span></h1>
+            <p>
+              Discover remarkable objects, artistic traditions and human stories
+              from across generations. Sundarban B C GOL Museum brings history,
+              culture and learning together in one inspiring place.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#objects">Explore Objects</a>
+              <a class="btn btn-outline" href="#about">Discover the Museum</a>
+            </div>
+          </div>
+
+          <div
+            class="hero-visual"
+            aria-label="Scrolling highlights from the museum collection"
+          >
+            <div class="scroll-gallery">
+              <div class="gallery-col">
+                <div class="gallery-card">
+                  <img
+                    src="images/SBCGM-MISC-0006-B.jpg"
+                    alt="Historic museum interior"
+                  />
+                </div>
+                <div class="gallery-card">
+                  <img
+                    src="images/B-SBCGM-S-0003.jpg"
+                    alt="Art gallery exhibition"
+                  />
+                </div>
+                <div class="gallery-card">
+                  <img
+                    src="images/SBCGM-S-0045-D.jpg"
+                    alt="Museum gallery room"
+                  />
+                </div>
+                <div class="gallery-card">
+                  <img
+                    src="images/SBCGM-S-0043-B.jpg"
+                    alt="Decorative heritage artwork"
+                  />
+                </div>
+              </div>
+              <div class="gallery-col">
+                <div class="gallery-card">
+                  <img
+                    src="images/SBCGM-S-0037-B.jpg"
+                    alt="Classical sculpture"
+                  />
+                </div>
+                <div class="gallery-card">
+                  <img
+                    src="images/SBCGM-S-0035-B.jpg"
+                    alt="Historic architectural details"
+                  />
+                </div>
+                <div class="gallery-card">
+                  <img
+                    src="images/SBCGM-S-0025-A.jpg"
+                    alt="Museum object on display"
+                  />
+                </div>
+                <div class="gallery-card">
+                  <img
+                    src="images/SBCGM-S-0023-B.jpg"
+                    alt="Museum collection display"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="feature-strip">
+        <div class="container feature-grid">
+          <div class="feature">
+            <strong>2,500+</strong><span>Objects & artefacts</span>
+          </div>
+          <div class="feature">
+            <strong>12</strong><span>Curated galleries</span>
+          </div>
+          <div class="feature">
+            <strong>35+</strong><span>Learning activities</span>
+          </div>
+          <div class="feature">
+            <strong>100 Years</strong><span>Of stories preserved</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Objects -->
+      <section class="section" id="objects">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <div class="eyebrow">From the collection</div>
+              <h2>Featured Objects</h2>
+            </div>
+            <p class="lead">
+              A glimpse into selected objects from our collection. Each item
+              carries a story about people, craft, belief, innovation or
+              everyday life.
+            </p>
+          </div>
+
+          <div class="cards">
+            <article class="card">
+              <div class="card-media">
+                <img
+                  src="images/SBCGM-S-0035-B.jpg"
+                  alt="Decorative historic object"
+                />
+                <span class="card-tag">Decorative Arts</span>
+              </div>
+              <div class="card-body">
+                <h3>Royal Ceremonial Vessel</h3>
+                <div class="meta">
+                  <span>c. 18th century</span><span>View Object →</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-media">
+                <img
+                  src="images/B-SBCGM-S-0003.jpg"
+                  alt="Stone sculpture in a museum"
+                />
+                <span class="card-tag">Sculpture</span>
+              </div>
+              <div class="card-body">
+                <h3>Stone Figure</h3>
+                <div class="meta">
+                  <span>Historic Collection</span><span>View Object →</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-media">
+                <img
+                  src="images/SBCGM-P-0123-A.jpg"
+                  alt="Traditional artwork"
+                />
+                <span class="card-tag">Painting</span>
+              </div>
+              <div class="card-body">
+                <h3>Courtly Painting</h3>
+                <div class="meta">
+                  <span>Works on Paper</span><span>View Object →</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-media">
+                <img
+                  src="images/SBCGM-MISC-0006-B.jpg"
+                  alt="Historic objects inside display cases"
+                />
+                <span class="card-tag">Archaeology</span>
+              </div>
+              <div class="card-body">
+                <h3>Excavated Everyday Objects</h3>
+                <div class="meta">
+                  <span>Archaeology</span><span>View Object →</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-media">
+                <img
+                  src="images/SBCGM-S-0043-B.jpg"
+                  alt="Architectural heritage details"
+                />
+                <span class="card-tag">Architecture</span>
+              </div>
+              <div class="card-body">
+                <h3>Carved Fragment</h3>
+                <div class="meta">
+                  <span>Built Heritage</span><span>View Object →</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-media">
+                <img
+                  src="images/SBCGM-S-0037-B.jpg"
+                  alt="Art exhibition inside a museum"
+                />
+                <span class="card-tag">Modern History</span>
+              </div>
+              <div class="card-body">
+                <h3>Modern Cultural Collection</h3>
+                <div class="meta">
+                  <span>20th century</span><span>View Object →</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="section-actions">
+            <a class="btn btn-outline" href="#">Show All Objects</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blogs -->
+      <section class="section" id="blogs" style="background: #fbf8f2">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <div class="eyebrow">Museum stories</div>
+              <h2>Latest from the Blog</h2>
+            </div>
+            <p class="lead">
+              Short reads from our curators, researchers and educators about
+              objects, exhibitions, conservation and cultural history.
+            </p>
+          </div>
+
+          <div class="cards">
+            <article class="card">
+              <div class="card-media">
+                <img
+                  src="images/C-SBCGM-CA-0056.jpg"
+                  alt="Historic museum building interior"
+                />
+                <span class="card-tag">Behind the Scenes</span>
+              </div>
+              <div class="card-body">
+                <h3>How a Museum Object Enters the Collection</h3>
+                <p>
+                  From documentation and provenance research to conservation and
+                  display, discover what happens before an object reaches the
+                  gallery.
+                </p>
+                <div class="meta">
+                  <span>8 min read</span><span>Read Story →</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-media">
+                <img
+                  src="images/SBCGM-S-0056-B.jpg"
+                  alt="Visitors exploring an art museum"
+                />
+                <span class="card-tag">Visitor Guide</span>
+              </div>
+              <div class="card-body">
+                <h3>Five Ways to Explore the Museum</h3>
+                <p>
+                  Whether you have thirty minutes or an entire afternoon, these
+                  simple routes can help you enjoy the collection at your own
+                  pace.
+                </p>
+                <div class="meta">
+                  <span>5 min read</span><span>Read Story →</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-media">
+                <img
+                  src="images/SBCGM-S-0045-D.jpg"
+                  alt="Detail of a historic painting"
+                />
+                <span class="card-tag">Curator's Note</span>
+              </div>
+              <div class="card-body">
+                <h3>Reading Details in Historic Art</h3>
+                <p>
+                  Small visual clues in colour, costume, gesture and setting can
+                  tell us far more about an artwork than we notice at first
+                  glance.
+                </p>
+                <div class="meta">
+                  <span>6 min read</span><span>Read Story →</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="section-actions">
+            <a class="btn btn-outline" href="#">Show All Blogs</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About / SEO-friendly text -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="about-panel">
+            <div class="about-image">
+              <img
+                src="images/SBCGM-MISC-0006-B.jpg"
+                alt="Visitors inside the Sundarban B C GOL Museum gallery"
+              />
+            </div>
+            <div class="about-copy">
+              <div class="eyebrow" style="color: var(--gold-light)">
+                About the museum
+              </div>
+              <h2>A place where objects become stories.</h2>
+              <p>
+                Sundarban B C GOL Museum is a cultural and educational museum
+                dedicated to preserving significant objects, interpreting
+                regional and global heritage, and making history engaging for
+                visitors of every age.
+              </p>
+              <p>
+                Our collection brings together archaeology, decorative arts,
+                sculpture, painting, social history and archival material.
+                Through exhibitions, digital stories, learning programmes and
+                community activities, the museum helps connect the past with the
+                questions and experiences of the present.
+              </p>
+              <p>
+                This homepage offers only a short introduction. The full history
+                of the institution, its mission, collections, research work and
+                curatorial approach is described on the dedicated About page.
+              </p>
+              <a class="btn btn-outline" href="#">Read the Full About Page</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Activities -->
+      <section class="section" id="activities">
+        <div class="container">
+          <div class="activity-band">
+            <div>
+              <div class="eyebrow" style="color: var(--gold-light)">
+                Learn & participate
+              </div>
+              <h2>Activities for families, students and curious minds.</h2>
+              <p>
+                Join guided tours, object discovery sessions, drawing
+                activities, family trails, school programmes and seasonal
+                workshops inspired by the museum collection.
+              </p>
+            </div>
+            <a class="btn btn-primary" href="#">Explore</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="section testimonials" aria-labelledby="visitor-heading">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <div class="eyebrow">Visitor voices</div>
+              <h2 id="visitor-heading">What Visitors Say</h2>
+            </div>
+            <p class="lead">
+              Experiences shared by families, students, teachers and visitors
+              who explored the museum and its collections.
+            </p>
+          </div>
+        </div>
+
+        <div class="testimonial-scroller">
+          <div class="testimonial-track">
+            <div class="testimonial-set">
+              <figure class="quote">
+                <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+                <blockquote>
+                  “A beautifully presented collection. The object stories made
+                  the visit meaningful even for our children.”
+                </blockquote>
+                <cite>Arindam S. · Family visitor</cite>
+              </figure>
+
+              <figure class="quote">
+                <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+                <blockquote>
+                  “The museum balances history and modern interpretation very
+                  well. I especially enjoyed the gallery notes.”
+                </blockquote>
+                <cite>Meera K. · Teacher</cite>
+              </figure>
+
+              <figure class="quote">
+                <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+                <blockquote>
+                  “Calm, elegant and easy to explore. The staff recommendations
+                  helped me discover objects I might have missed.”
+                </blockquote>
+                <cite>Rohit M. · Visitor</cite>
+              </figure>
+
+              <figure class="quote">
+                <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+                <blockquote>
+                  “The displays are clear and welcoming. I came for a short
+                  visit and ended up spending much more time than expected.”
+                </blockquote>
+                <cite>Priyanka D. · Visitor</cite>
+              </figure>
+
+              <figure class="quote">
+                <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+                <blockquote>
+                  “A very useful place for students to connect textbook history
+                  with real objects, stories and visual examples.”
+                </blockquote>
+                <cite>Sayan R. · Student</cite>
+              </figure>
+
+              <figure class="quote">
+                <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+                <blockquote>
+                  “The collection feels personal and rooted in the region. I
+                  would happily return when new displays and activities are
+                  added.”
+                </blockquote>
+                <cite>Ananya B. · Cultural enthusiast</cite>
+              </figure>
+            </div>
+
+            <!-- Duplicate set only for seamless continuous scrolling -->
+            <div class="testimonial-set" aria-hidden="true">
+              <figure class="quote">
+                <div class="stars">★★★★★</div>
+                <blockquote>
+                  “A beautifully presented collection. The object stories made
+                  the visit meaningful even for our children.”
+                </blockquote>
+                <cite>Arindam S. · Family visitor</cite>
+              </figure>
+
+              <figure class="quote">
+                <div class="stars">★★★★★</div>
+                <blockquote>
+                  “The museum balances history and modern interpretation very
+                  well. I especially enjoyed the gallery notes.”
+                </blockquote>
+                <cite>Meera K. · Teacher</cite>
+              </figure>
+
+              <figure class="quote">
+                <div class="stars">★★★★★</div>
+                <blockquote>
+                  “Calm, elegant and easy to explore. The staff recommendations
+                  helped me discover objects I might have missed.”
+                </blockquote>
+                <cite>Rohit M. · Visitor</cite>
+              </figure>
+
+              <figure class="quote">
+                <div class="stars">★★★★★</div>
+                <blockquote>
+                  “The displays are clear and welcoming. I came for a short
+                  visit and ended up spending much more time than expected.”
+                </blockquote>
+                <cite>Priyanka D. · Visitor</cite>
+              </figure>
+
+              <figure class="quote">
+                <div class="stars">★★★★★</div>
+                <blockquote>
+                  “A very useful place for students to connect textbook history
+                  with real objects, stories and visual examples.”
+                </blockquote>
+                <cite>Sayan R. · Student</cite>
+              </figure>
+
+              <figure class="quote">
+                <div class="stars">★★★★★</div>
+                <blockquote>
+                  “The collection feels personal and rooted in the region. I
+                  would happily return when new displays and activities are
+                  added.”
+                </blockquote>
+                <cite>Ananya B. · Cultural enthusiast</cite>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Location & Contact -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <div class="eyebrow">Plan your visit</div>
+              <h2>Location & Contact</h2>
+            </div>
+            <p class="lead">
+              Use the details below as temporary placeholders. We can replace
+              them with the museum's real address, map, hours and contact
+              information later.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-card">
+              <h3 style="font-size: 1.7rem; color: var(--navy)">
+                Sundarban B C GOL Museum
+              </h3>
+              <ul class="contact-list">
+                <li>
+                  <div class="contact-icon">⌖</div>
+                  <div>
+                    <strong>Address</strong
+                    ><span
+                      >Vill - Radharanipur, P.O.- Jyotishpur, P.S.- Basanti Dist
+                      - South 24 Parganas, PIN-743312</span
+                    >
+                  </div>
+                </li>
+                <li>
+                  <div class="contact-icon">◷</div>
+                  <div>
+                    <strong>Opening Hours</strong
+                    ><span>Tuesday–Sunday · 10:00 AM–6:00 PM</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="contact-icon">☎</div>
+                  <div>
+                    <strong>Phone</strong
+                    ><a href="tel:+910000000000">+91 00000 00000</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="contact-icon">✉</div>
+                  <div>
+                    <strong>Email</strong
+                    ><a href="mailto:hello@sundarbanmuseum.org"
+                      >hello@sundarbanmuseum.org</a
+                    >
+                  </div>
+                </li>
+              </ul>
+
+              <div class="socials" aria-label="Museum social media links">
+                <a class="social" href="#" aria-label="Facebook">f</a>
+                <a class="social" href="#" aria-label="Instagram">IG</a>
+                <a class="social" href="#" aria-label="YouTube">▶</a>
+                <a class="social" href="#" aria-label="X">X</a>
+              </div>
+            </div>
+
+            <div class="map-card" aria-label="Placeholder map area">
+              <div class="map-pin">
+                <div class="pin"><span>●</span></div>
+                <h3>Museum Location</h3>
+                <p>
+                  Interactive Google Map or OpenStreetMap can be embedded here
+                  in the Next.js version.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Floating share -->
+    <div class="floating-share" id="floatingShare">
+      <div class="share-menu" id="shareMenu" aria-hidden="true">
+        <button
+          class="share-option whatsapp"
+          type="button"
+          data-share="whatsapp"
+          aria-label="Share on WhatsApp"
+          title="WhatsApp"
+        >
+          <span><img src="images/wp.png" alt="WhatsApp"></span>
+        </button>
+        <button
+          class="share-option Instagram"
+          type="button"
+          data-share="Instagram"
+          aria-label="Share on Instagram"
+          title="Instagram"
+        >
+          <span><img src="images/ins.png" alt="Instagram"></span>
+        </button>
+        <button
+          class="share-option facebook"
+          type="button"
+          data-share="facebook"
+          aria-label="Share on Facebook"
+          title="Facebook"
+        >
+          <span><img src="images/fb.png" alt="Facebook"></span>
+        </button>
+        <button
+          class="share-option x-share"
+          type="button"
+          data-share="x"
+          aria-label="Share on X"
+          title="X"
+        >
+          <span><img src="images/x.png" alt="X"></span>
+        </button>
+        <button
+          class="share-option copy-share"
+          id="copyShare"
+          type="button"
+          data-share="copy"
+          aria-label="Copy page link"
+          title="Copy link"
+        >
+          <span>⧉</span>
+        </button>
+      </div>
+
+      <button
+        class="share-toggle"
+        id="shareToggle"
+        type="button"
+        aria-label="Share this page"
+        aria-expanded="false"
+        aria-controls="shareMenu"
+      >
+        <span class="share-symbol" aria-hidden="true">⮫</span>
+      </button>
+
+      <div
+        class="share-toast"
+        id="shareToast"
+        role="status"
+        aria-live="polite"
+      ></div>
+    </div>
+
+    <footer>
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="brand" style="color: #fff">
+            <img
+              src="images/bcgol_logo.png"
+              alt="Sundarban B C GOL Museum logo"
+              class="brand-logo footer-brand-logo"
+            />
+            <div class="brand-text">
+              <strong style="color: #fff">Sundarban B. C. GOL Museum</strong>
+              <span style="color: rgba(255, 255, 255, 0.55)"
+                >Regn No: IV-250/2022</span
+              >
+            </div>
+          </div>
+          <p>
+            A unit of Sundarban B.C. Gol Museum Trust. Preserving objects,
+            sharing stories and creating meaningful encounters with history,
+            culture and art.
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-title">Explore</div>
+          <ul class="footer-links">
+            <li><a href="#objects">Objects</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-title">Visit</div>
+          <ul class="footer-links">
+            <li><a href="#contact">Location</a></li>
+            <li><a href="#contact">Opening Hours</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Visitor Information</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-title">Follow the Museum</div>
+          <p style="font-size: 0.9rem; color: rgba(255, 255, 255, 0.62)">
+            News, collection highlights and activity updates.
+          </p>
+          <div class="socials">
+            <a class="social" href="#" aria-label="Facebook"><img src="images/fb.png" alt="Facebook"></a>
+            <a class="social" href="#" aria-label="Instagram"><img src="images/ins.png" alt="Instagram"></a>
+            <a class="social" href="#" aria-label="YouTube"><img src="images/yt.png" alt="YouTube"></a>
+            <a class="social" href="#" aria-label="X"><img src="images/x.png" alt="X"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container copyright">
+        <span>© 2026 Sundarban B.C. Gol Museum Trust.</span>
+        <span
+          ><a href="#">Privacy</a> · <a href="#">Terms</a> ·
+          <a href="#">Sitemap</a></span
+        >
+      </div>
+    </footer>
+
+    <script>
+      const menuBtn = document.getElementById("menuBtn");
+      const menuCloseBtn = document.getElementById("menuCloseBtn");
+      const nav = document.getElementById("mainNav");
+      const navOverlay = document.getElementById("navOverlay");
+
+      function openMenu() {
+        nav.classList.add("open");
+        navOverlay.classList.add("open");
+        document.body.classList.add("menu-open");
+        menuBtn.setAttribute("aria-expanded", "true");
+        navOverlay.setAttribute("aria-hidden", "false");
+      }
+
+      function closeMenu() {
+        nav.classList.remove("open");
+        navOverlay.classList.remove("open");
+        document.body.classList.remove("menu-open");
+        menuBtn.setAttribute("aria-expanded", "false");
+        navOverlay.setAttribute("aria-hidden", "true");
+      }
+
+      menuBtn.addEventListener("click", () => {
+        nav.classList.contains("open") ? closeMenu() : openMenu();
+      });
+
+      menuCloseBtn.addEventListener("click", closeMenu);
+      navOverlay.addEventListener("click", closeMenu);
+
+      nav.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", closeMenu);
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") closeMenu();
+      });
+
+      window.addEventListener("resize", () => {
+        if (window.innerWidth > 920) closeMenu();
+      });
+
+      const shareToggle = document.getElementById("shareToggle");
+      const shareMenu = document.getElementById("shareMenu");
+      const shareToast = document.getElementById("shareToast");
+
+      function closeShareMenu() {
+        shareMenu.classList.remove("open");
+        shareMenu.setAttribute("aria-hidden", "true");
+        shareToggle.setAttribute("aria-expanded", "false");
+      }
+
+      function showShareToast(message) {
+        shareToast.textContent = message;
+        shareToast.classList.add("show");
+        window.clearTimeout(showShareToast.timer);
+        showShareToast.timer = window.setTimeout(() => {
+          shareToast.classList.remove("show");
+        }, 1800);
+      }
+
+      shareToggle.addEventListener("click", (event) => {
+        event.stopPropagation();
+        const isOpen = shareMenu.classList.toggle("open");
+        shareMenu.setAttribute("aria-hidden", String(!isOpen));
+        shareToggle.setAttribute("aria-expanded", String(isOpen));
+      });
+
+      document.querySelectorAll("[data-share]").forEach((button) => {
+        button.addEventListener("click", async () => {
+          const pageUrl = encodeURIComponent(window.location.href);
+          const pageTitle = encodeURIComponent(document.title);
+          const type = button.dataset.share;
+
+          if (type === "whatsapp") {
+            window.open(
+              `https://wa.me/?text=${pageTitle}%20${pageUrl}`,
+              "_blank",
+              "noopener,noreferrer",
+            );
+          }
+
+          if (type === "facebook") {
+            window.open(
+              `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`,
+              "_blank",
+              "noopener,noreferrer",
+            );
+          }
+
+          if (type === "x") {
+            window.open(
+              `https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`,
+              "_blank",
+              "noopener,noreferrer",
+            );
+          }
+
+          if (type === "copy") {
+            try {
+              await navigator.clipboard.writeText(window.location.href);
+              showShareToast("Link copied");
+            } catch {
+              const temp = document.createElement("textarea");
+              temp.value = window.location.href;
+              document.body.appendChild(temp);
+              temp.select();
+              document.execCommand("copy");
+              temp.remove();
+              showShareToast("Link copied");
+            }
+          }
+
+          closeShareMenu();
+        });
+      });
+
+      document.addEventListener("click", (event) => {
+        if (!document.getElementById("floatingShare").contains(event.target)) {
+          closeShareMenu();
+        }
+      });
+    </script>
   </body>
 </html>
