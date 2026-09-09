@@ -1184,12 +1184,12 @@ footer {
   }
 
   .hero h1 {
-    font-size: clamp(2.75rem, 15vw, 4.2rem);
+    font-size: clamp(2rem, 5vw, 5rem);
   }
 
   .hero-brand-logo {
     width: 102px;
-    margin-bottom: 22px;
+    margin-bottom: 10px;
   }
 
   .hero-visual {
