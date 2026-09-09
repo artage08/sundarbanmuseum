@@ -756,8 +756,8 @@ nav a:hover::after {
 /* Floating Share Button */
 .floating-share {
   position: fixed;
-  right: 22px;
-  bottom: 22px;
+  right: 50px;
+  bottom: 75px;
   z-index: 980;
   display: flex;
   flex-direction: column;
