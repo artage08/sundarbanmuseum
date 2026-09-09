@@ -165,10 +165,14 @@ h2 {
 header {
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 1100;
   background: rgba(255, 253, 248, 0.94);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid rgba(9, 26, 54, 0.08);
+}
+
+nav {
+  z-index: 1002;
 }
 
 .nav-wrap {
@@ -1117,7 +1121,6 @@ footer {
     transition:
       opacity 0.28s ease,
       visibility 0.28s ease;
-    backdrop-filter: blur(2px);
   }
 
   .nav-overlay.open {
